@@ -20,5 +20,8 @@ class LoginVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-
+    @IBAction func signUpPressed(_ sender: Any) {
+        performSegue(withIdentifier: TO_NEW_ACCOUNT, sender: nil)
+    }
+    
 }
