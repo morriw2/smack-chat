@@ -7,27 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73B6BAD31F5D186A003A7001 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B6BAD21F5D186A003A7001 /* SWRevealViewController.m */; };
 		73D5D83A1F592F20004C940D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5D8391F592F20004C940D /* AppDelegate.swift */; };
-		73D5D83C1F592F20004C940D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5D83B1F592F20004C940D /* ViewController.swift */; };
 		73D5D83F1F592F20004C940D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D5D83D1F592F20004C940D /* Main.storyboard */; };
 		73D5D8411F592F20004C940D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73D5D8401F592F20004C940D /* Assets.xcassets */; };
 		73D5D8441F592F20004C940D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D5D8421F592F20004C940D /* LaunchScreen.storyboard */; };
+		73D5D8531F59353A004C940D /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5D8521F59353A004C940D /* ChatVC.swift */; };
+		73D5D8551F593559004C940D /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D5D8541F593559004C940D /* ChannelVC.swift */; };
 		FCA67895D3A52B1D7E0791F0 /* Pods_smack_chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636C1A44AC15AF8BAF543CC3 /* Pods_smack_chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		636C1A44AC15AF8BAF543CC3 /* Pods_smack_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFF220FFC871113280702F3 /* Pods-smack-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack-chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-smack-chat/Pods-smack-chat.release.xcconfig"; sourceTree = "<group>"; };
+		73B6BAD01F5D1869003A7001 /* smack-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-chat-Bridging-Header.h"; sourceTree = "<group>"; };
+		73B6BAD11F5D186A003A7001 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		73B6BAD21F5D186A003A7001 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		73D5D8361F592F20004C940D /* smack-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "smack-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D5D8391F592F20004C940D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		73D5D83B1F592F20004C940D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		73D5D83E1F592F20004C940D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73D5D8401F592F20004C940D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73D5D8431F592F20004C940D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73D5D8451F592F20004C940D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73D5D84C1F5931F6004C940D /* smack-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-chat-Bridging-Header.h"; sourceTree = "<group>"; };
-		73D5D84D1F5931F7004C940D /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
-		73D5D84E1F5931F8004C940D /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		73D5D8521F59353A004C940D /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		73D5D8541F593559004C940D /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		7BE82C17864FC5877A054E98 /* Pods-smack-chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack-chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-smack-chat/Pods-smack-chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,7 +66,6 @@
 		73D5D82D1F592F20004C940D = {
 			isa = PBXGroup;
 			children = (
-				73D5D84B1F5931B4004C940D /* Supporting Files */,
 				73D5D8381F592F20004C940D /* smack-chat */,
 				73D5D8371F592F20004C940D /* Products */,
 				3C04BCDF0A97223D75E7405A /* Pods */,
@@ -82,24 +84,42 @@
 		73D5D8381F592F20004C940D /* smack-chat */ = {
 			isa = PBXGroup;
 			children = (
+				73D5D8511F59350F004C940D /* Model */,
+				73D5D8501F593507004C940D /* View */,
+				73D5D84F1F5934FD004C940D /* Controller */,
 				73D5D8391F592F20004C940D /* AppDelegate.swift */,
-				73D5D83B1F592F20004C940D /* ViewController.swift */,
 				73D5D83D1F592F20004C940D /* Main.storyboard */,
 				73D5D8401F592F20004C940D /* Assets.xcassets */,
 				73D5D8421F592F20004C940D /* LaunchScreen.storyboard */,
 				73D5D8451F592F20004C940D /* Info.plist */,
+				73B6BAD11F5D186A003A7001 /* SWRevealViewController.h */,
+				73B6BAD21F5D186A003A7001 /* SWRevealViewController.m */,
+				73B6BAD01F5D1869003A7001 /* smack-chat-Bridging-Header.h */,
 			);
 			path = "smack-chat";
 			sourceTree = "<group>";
 		};
-		73D5D84B1F5931B4004C940D /* Supporting Files */ = {
+		73D5D84F1F5934FD004C940D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				73D5D84D1F5931F7004C940D /* SWRevealViewController.h */,
-				73D5D84E1F5931F8004C940D /* SWRevealViewController.m */,
-				73D5D84C1F5931F6004C940D /* smack-chat-Bridging-Header.h */,
+				73D5D8521F59353A004C940D /* ChatVC.swift */,
+				73D5D8541F593559004C940D /* ChannelVC.swift */,
 			);
-			path = "Supporting Files";
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73D5D8501F593507004C940D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		73D5D8511F59350F004C940D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,8 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73D5D83C1F592F20004C940D /* ViewController.swift in Sources */,
+				73D5D8531F59353A004C940D /* ChatVC.swift in Sources */,
+				73D5D8551F593559004C940D /* ChannelVC.swift in Sources */,
 				73D5D83A1F592F20004C940D /* AppDelegate.swift in Sources */,
+				73B6BAD31F5D186A003A7001 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,9 +392,11 @@
 				DEVELOPMENT_TEAM = NHG8FVC6K3;
 				INFOPLIST_FILE = "smack-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.billymorris.smack-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/smack-chat-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "smack-chat/smack-chat-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -389,9 +413,11 @@
 				DEVELOPMENT_TEAM = NHG8FVC6K3;
 				INFOPLIST_FILE = "smack-chat/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.billymorris.smack-chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/smack-chat-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "smack-chat/smack-chat-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
