@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7355AC3F1F5DD57F00E90BDE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355AC3E1F5DD57F00E90BDE /* AuthService.swift */; };
 		73B6BAD31F5D186A003A7001 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B6BAD21F5D186A003A7001 /* SWRevealViewController.m */; };
 		73B6BAD51F5D1BC2003A7001 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6BAD41F5D1BC2003A7001 /* GradientView.swift */; };
 		73B6BAD71F5D24F2003A7001 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6BAD61F5D24F2003A7001 /* LoginVC.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		636C1A44AC15AF8BAF543CC3 /* Pods_smack_chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_smack_chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DFF220FFC871113280702F3 /* Pods-smack-chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-smack-chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-smack-chat/Pods-smack-chat.release.xcconfig"; sourceTree = "<group>"; };
+		7355AC3E1F5DD57F00E90BDE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		73B6BAD01F5D1869003A7001 /* smack-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-chat-Bridging-Header.h"; sourceTree = "<group>"; };
 		73B6BAD11F5D186A003A7001 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		73B6BAD21F5D186A003A7001 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7355AC3D1F5DD55900E90BDE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7355AC3E1F5DD57F00E90BDE /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		73B6BAD81F5D25DC003A7001 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +110,7 @@
 		73D5D8381F592F20004C940D /* smack-chat */ = {
 			isa = PBXGroup;
 			children = (
+				7355AC3D1F5DD55900E90BDE /* Services */,
 				73B6BAD81F5D25DC003A7001 /* Utilities */,
 				73D5D8511F59350F004C940D /* Model */,
 				73D5D8501F593507004C940D /* View */,
@@ -269,6 +280,7 @@
 				73D5D8531F59353A004C940D /* ChatVC.swift in Sources */,
 				73D5D8551F593559004C940D /* ChannelVC.swift in Sources */,
 				73B6BAD71F5D24F2003A7001 /* LoginVC.swift in Sources */,
+				7355AC3F1F5DD57F00E90BDE /* AuthService.swift in Sources */,
 				73B6BAD51F5D1BC2003A7001 /* GradientView.swift in Sources */,
 				73B6BADA1F5D25EF003A7001 /* Constants.swift in Sources */,
 				73B6BADC1F5D2C20003A7001 /* NewAccountVC.swift in Sources */,
