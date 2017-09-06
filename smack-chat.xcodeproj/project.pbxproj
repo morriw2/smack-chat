@@ -10,6 +10,8 @@
 		7355AC3F1F5DD57F00E90BDE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355AC3E1F5DD57F00E90BDE /* AuthService.swift */; };
 		7355AC411F5E7CC200E90BDE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355AC401F5E7CC200E90BDE /* RoundedButton.swift */; };
 		7355AC431F5F8C5000E90BDE /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355AC421F5F8C5000E90BDE /* UserDataService.swift */; };
+		7355AC451F5FA6D500E90BDE /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355AC441F5FA6D500E90BDE /* AvatarPickerVC.swift */; };
+		7355AC471F5FB24A00E90BDE /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7355AC461F5FB24A00E90BDE /* AvatarCell.swift */; };
 		73B6BAD31F5D186A003A7001 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73B6BAD21F5D186A003A7001 /* SWRevealViewController.m */; };
 		73B6BAD51F5D1BC2003A7001 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6BAD41F5D1BC2003A7001 /* GradientView.swift */; };
 		73B6BAD71F5D24F2003A7001 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B6BAD61F5D24F2003A7001 /* LoginVC.swift */; };
@@ -30,6 +32,8 @@
 		7355AC3E1F5DD57F00E90BDE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		7355AC401F5E7CC200E90BDE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		7355AC421F5F8C5000E90BDE /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		7355AC441F5FA6D500E90BDE /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
+		7355AC461F5FB24A00E90BDE /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		73B6BAD01F5D1869003A7001 /* smack-chat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "smack-chat-Bridging-Header.h"; sourceTree = "<group>"; };
 		73B6BAD11F5D186A003A7001 /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		73B6BAD21F5D186A003A7001 /* SWRevealViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 				73D5D8541F593559004C940D /* ChannelVC.swift */,
 				73B6BAD61F5D24F2003A7001 /* LoginVC.swift */,
 				73B6BADB1F5D2C20003A7001 /* NewAccountVC.swift */,
+				7355AC441F5FA6D500E90BDE /* AvatarPickerVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			children = (
 				73B6BAD41F5D1BC2003A7001 /* GradientView.swift */,
 				7355AC401F5E7CC200E90BDE /* RoundedButton.swift */,
+				7355AC461F5FB24A00E90BDE /* AvatarCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D5D8531F59353A004C940D /* ChatVC.swift in Sources */,
+				7355AC451F5FA6D500E90BDE /* AvatarPickerVC.swift in Sources */,
 				7355AC411F5E7CC200E90BDE /* RoundedButton.swift in Sources */,
 				73D5D8551F593559004C940D /* ChannelVC.swift in Sources */,
 				7355AC431F5F8C5000E90BDE /* UserDataService.swift in Sources */,
@@ -291,6 +298,7 @@
 				7355AC3F1F5DD57F00E90BDE /* AuthService.swift in Sources */,
 				73B6BAD51F5D1BC2003A7001 /* GradientView.swift in Sources */,
 				73B6BADA1F5D25EF003A7001 /* Constants.swift in Sources */,
+				7355AC471F5FB24A00E90BDE /* AvatarCell.swift in Sources */,
 				73B6BADC1F5D2C20003A7001 /* NewAccountVC.swift in Sources */,
 				73D5D83A1F592F20004C940D /* AppDelegate.swift in Sources */,
 				73B6BAD31F5D186A003A7001 /* SWRevealViewController.m in Sources */,

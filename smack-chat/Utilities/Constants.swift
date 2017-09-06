@@ -13,6 +13,7 @@ import Foundation
 let TO_LOGIN = "toLoginVC"
 let TO_NEW_ACCOUNT = "toNewAccountVC"
 let UNWIND = "unwindToChannel"
+let TO_AVATAR_PICKER = "toAvatarPicker"
 
 
 //User Defaults
