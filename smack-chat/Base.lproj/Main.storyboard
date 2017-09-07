@@ -193,6 +193,7 @@
                     </view>
                     <connections>
                         <outlet property="loginButton" destination="rcs-Xi-pmi" id="KYg-06-BFK"/>
+                        <outlet property="profileImage" destination="PdL-Rv-qax" id="5uD-jW-piv"/>
                         <segue destination="nbX-S9-9hz" kind="show" identifier="toLoginVC" id="7cO-hm-9tH"/>
                     </connections>
                 </viewController>
