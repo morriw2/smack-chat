@@ -134,7 +134,7 @@
                                 <rect key="frame" x="0.0" y="121" width="375" height="431"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="fIU-cA-7fR">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="fIU-cA-7fR" customClass="ChannelCell" customModule="smack_chat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fIU-cA-7fR" id="2yj-eK-YkD">
@@ -154,6 +154,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="channelName" destination="CBU-aV-8Qu" id="ZKc-Vb-Zhg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -194,6 +197,7 @@
                     <connections>
                         <outlet property="loginButton" destination="rcs-Xi-pmi" id="KYg-06-BFK"/>
                         <outlet property="profileImage" destination="PdL-Rv-qax" id="5uD-jW-piv"/>
+                        <outlet property="tableView" destination="nkj-Ae-wui" id="BJ3-hs-rzy"/>
                         <segue destination="nbX-S9-9hz" kind="show" identifier="toLoginVC" id="7cO-hm-9tH"/>
                     </connections>
                 </viewController>
