@@ -5,7 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13165.3"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -141,15 +140,23 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cda-qJ-XgM">
+                                <rect key="frame" x="8" y="621" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="rWY-mK-4rM" firstAttribute="centerY" secondItem="jNB-NV-swY" secondAttribute="centerY" id="5EW-qf-Xkv"/>
                             <constraint firstAttribute="trailing" secondItem="aqh-9T-OlT" secondAttribute="trailing" id="BT9-7K-juW"/>
                             <constraint firstItem="jNB-NV-swY" firstAttribute="leading" secondItem="Uxn-TA-Brd" secondAttribute="leading" id="EVy-uM-snH"/>
+                            <constraint firstItem="jNB-NV-swY" firstAttribute="top" secondItem="Cda-qJ-XgM" secondAttribute="bottom" constant="6" id="F5n-g8-1wy"/>
                             <constraint firstItem="aqh-9T-OlT" firstAttribute="top" secondItem="07Q-Oz-Ym5" secondAttribute="bottom" id="Kxk-5b-Ou2"/>
                             <constraint firstAttribute="trailing" secondItem="rWY-mK-4rM" secondAttribute="trailing" constant="8" id="Rjf-d1-ll5"/>
                             <constraint firstAttribute="trailing" secondItem="jNB-NV-swY" secondAttribute="trailing" id="Wqf-vP-YJM"/>
+                            <constraint firstItem="Cda-qJ-XgM" firstAttribute="leading" secondItem="Uxn-TA-Brd" secondAttribute="leading" constant="8" id="cBl-Lx-KH0"/>
                             <constraint firstItem="aqh-9T-OlT" firstAttribute="leading" secondItem="Uxn-TA-Brd" secondAttribute="leading" id="dJJ-lf-s7H"/>
                             <constraint firstItem="07Q-Oz-Ym5" firstAttribute="top" secondItem="Uxn-TA-Brd" secondAttribute="top" id="dLy-k5-2xX"/>
                             <constraint firstItem="6H5-QE-Wq8" firstAttribute="top" secondItem="jNB-NV-swY" secondAttribute="bottom" id="eDR-F6-Gm9"/>
@@ -160,6 +167,7 @@
                     </view>
                     <connections>
                         <outlet property="channelNameLabel" destination="Fzs-Pq-a1B" id="EWm-8x-CMX"/>
+                        <outlet property="isTypingLabel" destination="Cda-qJ-XgM" id="j2Z-TM-q04"/>
                         <outlet property="menuButton" destination="3eP-Hg-wlI" id="RlX-Uj-m6c"/>
                         <outlet property="messageField" destination="jNB-NV-swY" id="Eeh-2B-EMJ"/>
                         <outlet property="messageTableView" destination="aqh-9T-OlT" id="HxM-9i-XYg"/>
